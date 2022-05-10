@@ -1,0 +1,86 @@
+/* Estilos generales */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+h1{
+    font-family: 'Oleo Script Swash Caps', cursive !important;
+    font-size: 20px;
+}
+
+.h2-main{
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 40px;
+}
+nav {
+    background-color: rgb(93, 196, 80);
+}
+
+.logo-y-titulo {
+    display: flex;
+    flex-direction: column;
+    height: 15rem;
+    padding-bottom: 1rem;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+}
+
+.main-index {
+    padding: .5rem;
+}
+
+
+/* Footer */
+
+footer {
+    border-top: solid 15px orange;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(152, 233, 244, 1) 0%, rgba(84, 240, 199, 1) 48%, rgba(100, 250, 168, 1) 100%, rgba(0, 209, 251, 1) 100%);
+}
+
+.img-contacto {
+    width: 70px;
+    height: 70px;
+}
+
+
+.diseñador {
+    background-color: black;
+    text-align: center;
+    padding: .5rem 0rem;
+}
+
+.diseñador a {
+    color: white;
+}
+
+
+
+/* Contacto.html */
+.main-contacto {
+    display: grid;
+}
+
+
+/* Personalizados.html */
+
+.titulo-galeria{
+    text-align: center;
+    margin: 1rem;
+}
+
+.galeria{
+    width: 40vw;
+}
+
+/* Contacto.html */
+
+form .mb-2{
+    width: 15rem;
+}
